@@ -14,7 +14,7 @@
 
 
 NTRIPClient::NTRIPClient(String server, int port) {
-  this->server = server;
+  this->server = server.trim();
   this->port = port;
 }
 
